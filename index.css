@@ -1,0 +1,99 @@
+* {
+    /* border: 1px solid blue; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100vw; */
+    /* max-width: 500px; */
+    margin: 10vh 10vw;
+    background-image: 
+    linear-gradient(rgba(187, 182, 178, 0.5), rgba(151, 115, 89, 0.5)),
+    url('https://t2.daumcdn.net/thumb/R720x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/2xEY/image/uie98aPNLJDouoEcPMVF3_PNAcg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+body > div {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    min-width: 200px;
+    max-width: 450px;
+    height: auto;
+    padding: 20px;
+    border-radius: 7px;
+    /* border: 1px solid red; */
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+main > div {
+    font-weight: 700;
+    background-color: rgba(255, 235, 205, 0.203);
+}
+
+li, main > div {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 30px;
+    background-color: rgba(164, 121, 47, 0.366);
+    border-radius: 7px;
+}
+
+button {
+    padding: 5px;
+    color: white;
+    background-color: rgb(197, 136, 31);
+    border-radius: 7px;
+}
+
+input {
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 5px;
+    min-width: 1em;
+    /* max-width: 1em; */
+}
+
+div span {
+    padding: 5px;
+}
+
+.toDoListWrapper {
+    margin: 10px 0px;
+}
+
+.addDate {
+    font-size: 0.5em;
+}
+
+
+footer {
+    text-align: right;
+}

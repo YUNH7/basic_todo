@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    </style>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="toDoListContainer">
+        <header>
+            <h1>To Do List</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>진행중</li>
+                <li>완료목록</li>
+                <li>삭제목록</li>
+            </ul>
+        </nav>
+        <main>
+            <form action="submit">
+                <input placeholder="새 할 일" value="" type="text" id="saveToDoSomething">
+                <button>저장</button>
+            </form>
+            <div><span><input class="checkAll" type="checkbox">전체선택</span><span>전체삭제<span class="deleteAll">&#10005;</span></span></div>
+            <ul class="toDoListWrapper">
+                <li><span><input type="checkbox">산책 가기</span><span class="addDate">날짜<span class="deleteToDo">&#10005;</span></span></li>
+                <li><span><input type="checkbox">9시에 째깍이 켜기</span><span class="addDate">날짜<span class="deleteToDo">&#10005;</span></span></li>
+                <li><span><input type="checkbox">점심 먹기</span><span class="addDate">날짜<span class="deleteToDo">&#10005;</span></span></li>
+            </ul>
+        </main>
+        <footer><span>username</span><span>최종수정날짜</span></footer>
+    </div>
+</body>
+
+</html>
