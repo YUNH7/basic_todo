@@ -7,9 +7,9 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
 
-  margin: 10vh 10vw;
   background-image: linear-gradient(
       rgba(187, 182, 178, 0.5),
       rgba(151, 115, 89, 0.5)
@@ -25,7 +25,7 @@ body > div {
   width: 100%;
   min-width: 200px;
   max-width: 450px;
-  height: auto;
+  height: 80vh;
   padding: 20px;
   border-radius: 7px;
 }
@@ -38,6 +38,16 @@ h1 {
 nav > ul {
   display: flex;
   justify-content: center;
+}
+
+main {
+  height: 100%;
+}
+
+main > ul {
+  overflow-y: auto;
+  white-space: nowrap;
+  height: 65%;
 }
 
 main > div {
